@@ -1,5 +1,5 @@
 /*
-Copyright © 2010-2011, Nitin Verma (project owner for XADisk http://xadisk.java.net/). All rights reserved.
+Copyright ï¿½ 2010-2011, Nitin Verma (project owner for XADisk http://xadisk.java.net/). All rights reserved.
 
 This source code is being made available to the public under the terms specified in the license
 "Eclipse Public License 1.0" located at http://www.opensource.org/licenses/eclipse-1.0.php.
@@ -27,9 +27,9 @@ public class DurableDiskSession {
     }
     
     private enum NATIVE_LIB_NAMES {
-        unix_32_xadisk, unix_64_xadisk,
-        windows_32_xadisk, windows_64_xadisk,
-        mac_32_xadisk, mac_64_xadisk,
+        unix_64_xadisk, unix_32_xadisk,
+        windows_64_xadisk, windows_32_xadisk,
+        mac_64_xadisk, mac_32_xadisk,
         placeholder_xadisk
         //these can't contain a "."
     };
